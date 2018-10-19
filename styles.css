@@ -1,0 +1,117 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    font-style: normal;
+    color: #2d2d2d;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    min-height: 100%;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+header {
+    align-self: start;
+    padding: 20px;
+    grid-column: 1 / -1
+}
+
+.lheader {
+    float: left;
+}
+
+.rheader {
+    float: right;
+}
+
+#signin {
+    background-color: #357ae8;
+    color: #ffffff;
+    height: 30px;
+    font-size: small;
+    font-weight: bold;
+}
+
+main {
+    display: grid;
+    grid-column: 3;
+    justify-content: center;
+    align-content: start;
+}
+
+.logo {
+    justify-self: center;
+    margin-bottom: 25px;
+}
+
+.searchbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 35px;
+}
+
+#lbutton {
+    margin-right: 10px;
+    width: 125px;
+    background-color: #f1f1f1;
+    color: #4c4c4c;
+    font-size: small;
+}
+
+#rbutton {
+    margin-left: 10px;
+    width: 125px;
+    background-color: #f1f1f1;
+    color: #4c4c4c;
+    font-size: small;
+}
+
+.resizedTextbox {
+    justify-self: right;
+    width: 500px;
+    height: 40px;
+}
+
+footer {
+    grid-column: 1 / -1;
+    align-self: end;
+    background-color: #ebebeb;
+    padding: 15px;
+}
+
+.lfooter {
+    float: left;
+}
+
+.rfooter {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #4c4c4c;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#lbutton:hover {
+    font-weight: bold;
+}
+
+#rbutton:hover {
+    font-weight: bold;
+}
+
+
+
+
